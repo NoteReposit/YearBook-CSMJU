@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation-Member</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global-style.css">
+    <link rel="stylesheet" href="assets/css/gen-student-member.css">
+    <script src="assets/script/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-main-color font-main-style">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="container">
+            <a class="navbar-brand font-main-style fs-3" href="index.html">CSMJU | Year Book</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xxl-4 mt-3">
+                <div class="card">
+                    <img src="assets/image/man01.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">ประพล ปะยาง</h5>
+                        <p class="card-text mb-0">Software Engineer</p>
+                        <p class="card-text">Software Complex Co., Ltd</p>
+                        <a href="std-detail.html" class="btn btn-primary">รายละเอียด</a>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                for (let i = 0; i < 30; i++) {
+                    document.write(`
+                        <div class="col-sm-6 col-md-4 col-lg-4 col-xxl-4 mt-3">
+                            <div class="card">
+                                <img src="assets/image/man01.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">ประพล ปะยาง</h5>
+                                        <p class="card-text mb-0">Software Engineer</p>
+                                        <p class="card-text">Software Complex Co., Ltd </p>
+                                        <a href="std-detail.html" class="btn btn-primary">รายละเอียด</a>
+                                    </div>
+                            </div>
+                        </div>
+                    `)
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

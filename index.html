@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YearBook-CSMJU</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global-style.css">
+
+    <script src="assets/script/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-main-color font-main-style">
+    <!-- navbar -->
+    <nav class="navbar bg-second-color navbar-expand">
+        <div class="container">
+            <a class="navbar-brand font-main-style fs-3" href="index.html">CSMJU | Year Book</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-4 col-lg-3 col-xl-2 mt-3">
+                <a href="gen-student-member.html" class="btn btn-light rounded-4" style="width: 100%;">
+                    <span>
+                        <img src="assets/image/generation.svg" alt="bootstrap" width="32" height="32">
+                    </span>
+                    <span>
+                        รุ่นที่ ${i+1}
+                    </span>
+                </a>
+            </div>
+
+            <script>
+                for (let i = 0; i < 31; i++) {
+                    document.write(`
+                        <div class="col-md-4 col-lg-3 col-xl-2 mt-3">
+                            <a href="gen-student-member.html" class="btn btn-light rounded-4" style="width: 100%;">
+                                <span>
+                                    <img src="assets/image/generation.svg" alt="bootstrap" width="32" height="32">
+                                </span>
+                                <span>
+                                    รุ่นที่ ${i+1}
+                                </span>
+                            </a>
+                        </div>
+                    `)
+                }
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>
