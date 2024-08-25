@@ -9,12 +9,16 @@
     border-width: 5px;
 }
 
-.main-font-color {
+.font-main-color {
     color: #FFFFFF;
 }
 
-.second-font-color {
+.font-second-color {
     color: #134B70;
+}
+
+.font-main-style {
+    font-family: "Prompt-Regular";
 }
 
 .bg-main-color {
@@ -27,8 +31,4 @@
 
 .btn-size {
     padding: 8px 13px;
-}
-
-.font-main-style {
-    font-family: "Prompt-Regular";
 }

@@ -13,3 +13,13 @@
     padding: 25px;
     margin-top: -15px;
 }
+
+
+.btn-primary{
+    background-color: #134B70;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #508C9B;
+}
